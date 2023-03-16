@@ -4,7 +4,7 @@ DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営す�
 
 弊社管理のモバイル実機端末を、以下の目的でご利用になることを想定しています。
 
-1. **DIMBULA atWork** - 実機のモバイル端末をスポット利用する
+1. **DIMBULA atWork** - 実機のモバイル端末をスポットでリモートデスクトップ的に利用する
 2. **DIMBULA teaBreak** - Github Workflowと連携した、アプリケーションのE2Eテストで継続利用する
 
 DIMBULAでは、専用のSlackアプリとGithubアプリがあります。DIMBULA atWork / teaBreak共に、Slackのアプリはインストール必須で、teaBreakをご利用になる場合は、Githubアプリもインストールください。

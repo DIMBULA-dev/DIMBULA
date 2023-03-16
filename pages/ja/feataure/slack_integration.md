@@ -3,11 +3,11 @@ DIMBULAでは、以下の目的でWebブラウザを使いますが、それ以�
 
 * DIMBULA SlackアプリをSlackワークスペースにインストールし、初回にアクティベイトするため
 * DIMBULA teaBreakを使うために、Githubへログインして、アクセストークンを取得するため
-* DIMBULA teaBreakで実行・録画したテスト中の動画やスクリーンショットを確認するため
+* DIMBULA teaBreakで録画したテスト中の動画やスクリーンショットを確認するため
 * DIMBULA atWorkを使うため
 * また、上記のためにブラウザでログインするため
 
-ここでは、一部よく使うコマンドを紹介します。他のコマンドについては、`dimbula help`を実行し、どんなコマンドがあるのか一読ください。。
+ここでは、一部よく使うコマンドを紹介します。他のコマンドについては、`/dimbula help`を実行し、どんなコマンドがあるのか一読ください。
 
 # `/dimbula me`
 アカウントについて情報を表示します。
@@ -21,14 +21,14 @@ SlackのワークスペースにインストールしたDIMBULAアプリをア�
 DIMBULA teaBreakを使うために、Githubと接続されていれば、以下のメッセージがポストされます。
 ![img.png](../../../assets/image/dimbula_me_github.png)
 
-機能的な面を以下に説明します。
-* `Activate`は、管理者又は所有者のみ実行可能なSlackワークスペース有効化
+各リンク、ボタンについて以下に説明します。
+* `Activate`は、管理者又は所有者のみ実行可能で、Slackワークスペースを有効化する
 * ワークスペースの`reconect`も上記同様
-* `Sign in`は、ブラウザにログインセッションを作成
-* `Sign out`は、ブラウザに残っているログインセッションを破棄
-* Githubの`connect` `reconnect` は、DIMBULA teaBreakを利用するためのGithubのアカウント連携
-* `Disconnect Github`は、接続したGithubアカウントの連携解除
-* `Delete from DIMBULA`は、DIMBULAの利用を終了するためのワークスペース削除
+* `Sign in`は、ブラウザにログインセッションを作成する
+* `Sign out`は、ブラウザに残っているログインセッションを破棄する
+* Githubの`connect` `reconnect` は、DIMBULA teaBreakを利用するためのGithubのアカウントを接続する
+* `Disconnect Github`は、接続したGithubアカウントの切断する
+* `Delete from DIMBULA`は、DIMBULAの利用を終了するため、ワークスペースを削除する
 
 # `/dimbula use`
 DIMBULA atWorkを利用するときに使用するコマンドです。モーダル表示で具体的に利用可能なモバイルの選択肢を表示されます。
