@@ -81,3 +81,6 @@ Github連携し、DIMBULA teaBreakでE2Eテストを行うとき、テスト終�
 
 対象のリポジトリは、DIMBULAのGithubアプリをインストールした個人や組織にのリポジトリです。全ての選択可能なリポジトリのトップ100件を表示します。もし選択したいリポジトリが選択肢に現れていない場合は、`dimbula subscribe <リポジトリのURL>`などで絞り込むことができます。詳細は、`/dimbula help`をご確認ください。
 ![img.png](../../../assets/image/dimbula_subscribe_modal2.png)
+
+同じリポジトリの講読は、他の複数のチャンネルに対しても `/dimbula subscribe` で登録することができます。
+講読を解除したい場合は、`/dimbula unsubscribe`コマンドで講読解除したいリポジトリを選択します。
