@@ -7,6 +7,18 @@ DIMBULAでは、以下の目的でWebブラウザを使いますが、それ以�
 * DIMBULA atWorkを使うため
 * また、上記のためにブラウザでログインするため
 
+# セットアップ
+まずは、DIMBULAのSlackアプリをSlackワークスペースにインストールしてください。
+
+<a href="https://slack.com/oauth/v2/authorize?client_id=2434429732679.4945997903222&scope=chat:write,commands,users:read&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+
+次に、DIMBULAと対話的にご利用になるために、Slashコマンドを利用になるチャンネルにDIMBULAアプリを追加してください。
+![dimbula_required_admin.png](../../../assets/image/dimbula_add_channel1.png)
+![dimbula_required_admin.png](../../../assets/image/dimbula_add_channel2.png)
+![dimbula_required_admin.png](../../../assets/image/dimbula_add_channel3.png)
+
+チャンネルに追加後、`/dimbula me`のコマンドを送信してみてください。
+
 # ユーザ管理
 DIMBULAにはユーザ作成や管理、招待を行う機能がありません。
 
@@ -47,14 +59,16 @@ DIMBULA teaBreakを使うために、Githubと接続されていれば、以下�
 * `Delete from DIMBULA`は、DIMBULAの利用を終了するため、ワークスペースを削除する
 
 ## `/dimbula use`
-DIMBULA atWorkを利用するときに使用するコマンドです。モーダル表示で具体的に利用可能なモバイルの選択肢を表示されます。
+DIMBULA atWorkを利用するときに使用するコマンドです。
+
+モーダル表示で具体的に利用可能なモバイルの選択肢を表示されます。
 ![img.png](../../../assets/image/dimbula_use_modal.png)
 
 モバイルの確保が出来ると、リンクがポストされるので、ブラウザで表示します。
 ![img.png](../../../assets/image/dimbula_use_post.png)
 
 ## `/dimbula quit`
-現在利用中のモバイルの終了を行います。終了の同意にチェックを入れて確定します。
+現在利用中のモバイルの終了を行います。 終了の同意にチェックを入れて確定します。
 ![img.png](../../../assets/image/dimbula_quit_modal.png)
 
 終了後、以下のメッセージがポストされます。

@@ -1,1 +1,4 @@
 # Github連携
+Githubと連携する目的は、Github WorkflowからDIMBULA teaBreakを活用することです。
+
+これまで個人もしくは自社で運用してきたGithub Workflowの運用ルールに加える形で、DIMBULA teaBreakを活用出来ます。
