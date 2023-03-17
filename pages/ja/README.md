@@ -1,7 +1,3 @@
----
-lang: ja_JP
----
-
 # DIMBULAについて
 
 DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営するプロダクトです。
@@ -14,6 +10,10 @@ DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営す�
 DIMBULAでは、専用のSlackアプリとGithubアプリがあります。DIMBULA atWork / teaBreak共に、Slackのアプリはインストール必須で、teaBreakをご利用になる場合は、Githubアプリもインストールください。
 
 <a href="https://slack.com/oauth/v2/authorize?client_id=2434429732679.4945997903222&scope=chat:write,commands,users:read&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+<a href="https://github.com/marketplace/dimbula-real-mobile-ci-computing" style="border-radius: 8px; background-color: white; height: 40px; display: inline-block; position: relative; width: 160px;">
+<img src="../../assets/image/github-icon.png" alt="Github" height="30" style="display: inline-block; margin: 5px 8px;" />
+<span style="color: black; font-size: 16px; position: absolute; top: 8px;">Add to Github</span>
+</a>
 
 # 特徴
 
