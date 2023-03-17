@@ -2,6 +2,8 @@
 
 # DIMBULA
 
+![icon.png](assets/image/icon.png)
+
 DIMBULA is a product that provides services for using our managed real mobile devices as remote desktops or E2E for CI.
 
 If these keywords ring a bell, take a look please.  
