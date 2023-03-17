@@ -1,3 +1,5 @@
+<meta name="slack-app-id" content="A04TTVBSK6J">
+
 # DIMBULA
 
 DIMBULA is a product that provides services for using our managed real mobile devices as remote desktops or E2E for CI.
