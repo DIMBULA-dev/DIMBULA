@@ -4,6 +4,11 @@ Githubと連携する目的は、Github WorkflowからDIMBULA teaBreakを活用�
 # セットアップ
 まずは、DIMBULAのGithubアプリを、利用したいGithub上の個人や組織にインストールしてください。
 
+<a href="https://github.com/marketplace/dimbula-real-mobile-ci-computing" style="border-radius: 8px; background-color: white; height: 40px; display: inline-block; position: relative; width: 160px; border: 1px solid #CCCCCC; font-weight: normal !important; ">
+<img src="../../../assets/image/github-icon.png" alt="Github" height="30" style="display: inline-block; margin: 5px 8px;" />
+<span style="color: black; font-size: 16px; position: absolute; top: 8px;">Add to Github</span>
+</a>
+
 次に、Githubのアカウントを連携します。これは必須のセットアップではありませんが、DIMBULA teaBreakのE2Eテストが終わった時やGithub Checksを更新したときの通知を受けたい場合は、Slackのチャンネルに講読したいリポジトリを登録してください。
 詳しくは、[通知を受け取る](../docs/receive_notification.md) を参照ください。
 
