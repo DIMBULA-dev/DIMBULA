@@ -5,5 +5,6 @@ description: The real mobile computing under full managed. No-code CI experience
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
 gems:
   - jekyll-seo-tag
