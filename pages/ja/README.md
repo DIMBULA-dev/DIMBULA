@@ -1,3 +1,7 @@
+---
+lang: ja_JP
+---
+
 # DIMBULAについて
 
 DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営するプロダクトです。
