@@ -14,7 +14,7 @@ DIMBULAでは、専用のSlackアプリとGithubアプリがあります。DIMBU
 </a>
 <a href="https://github.com/marketplace/dimbula-real-mobile-ci-computing" style="border-radius: 8px;background-color: white;height: 38px;display: inline-block;position: relative;width: 165px;border: 1px solid #c8c8c8;font-weight: normal !important;" target="_blank">
   <img src="../../assets/image/github-icon.png" alt="Github" height="30" style="display: inline-block;margin: 4px 8px 5px 8px;">
-  <span style="color: black; font-size: 16px; position: absolute; top: 8px;">Add to <b>Github<b/></span>
+  <span style="color: black; font-size: 16px; position: absolute; top: 8px;">Add to <b>Github</b></span>
 </a>
 
 # 特徴
