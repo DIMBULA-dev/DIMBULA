@@ -54,7 +54,7 @@ DIMBULA teaBreakを使うために、Githubと接続されていれば、以下�
 * ワークスペースの`reconect`も上記同様
 * `Sign in`は、ブラウザにログインセッションを作成する
 * `Sign out`は、ブラウザに残っているログインセッションを破棄する
-* Githubの`connect` `reconnect` は、DIMBULA teaBreakを利用するためのGithubのアカウントを接続する
+* Githubの`connect` `reconnect` は、DIMBULA teaBreakを利用するための [Githubアカウントを接続](../docs/connect_github.md) する
 * `Disconnect Github`は、接続したGithubアカウントの切断する
 * `Delete from DIMBULA`は、DIMBULAの利用を終了するため、ワークスペースを削除する
 
@@ -76,11 +76,9 @@ DIMBULA atWorkを利用するときに使用するコマンドです。
 
 ## `/dimbula subscribe`
 
-Github連携し、DIMBULA teaBreakでE2Eテストを行うとき、テスト終了の通知やGithub Checksを更新したときにGithubからの通知を受け取りたいリポジトリとチャンネルを登録します。コマンドを実行すると、選択可能なGithubのリポジトリの選択肢が表示されます。
-![img.png](../../../assets/image/dimbula_subscribe_modal.png)
-
-対象のリポジトリは、DIMBULAのGithubアプリをインストールした個人や組織にのリポジトリです。全ての選択可能なリポジトリのトップ100件を表示します。もし選択したいリポジトリが選択肢に現れていない場合は、`dimbula subscribe <リポジトリのURL>`などで絞り込むことができます。詳細は、`/dimbula help`をご確認ください。
-![img.png](../../../assets/image/dimbula_subscribe_modal2.png)
+Github連携し、DIMBULA teaBreakでE2Eテストを行うとき、テスト終了の通知やGithub Checksを更新したときにGithubからの通知を受け取りたいリポジトリとチャンネルを登録します。コマンドには登録したいGithubのリポジトリURLを入力して実行します。
+![img.png](../../../assets/image/dimbula_subscribe_url.png)
+![img.png](../../../assets/image/dimbula_subscribed.png)
 
 同じリポジトリの講読は、他の複数のチャンネルに対しても `/dimbula subscribe` で登録することができます。
 講読を解除したい場合は、`/dimbula unsubscribe`コマンドで講読解除したいリポジトリを選択します。

@@ -9,6 +9,12 @@ Githubと連携する目的は、Github WorkflowからDIMBULA teaBreakを活用�
   <span style="color: black; font-size: 16px; position: absolute; top: 8px;">Add to <b>Github</b></span>
 </a>
 
-次に、Githubのアカウントを連携します。これは必須のセットアップではありませんが、DIMBULA teaBreakのE2Eテストが終わった時やGithub Checksを更新したときの通知を受けたい場合は、Slackのチャンネルに講読したいリポジトリを登録してください。
+次に、Githubのアカウントを連携します。Githubが未接続の場合、`/dimbula me`を送信すると、以下のように`Not connected`と表示されます。`connect`のリンクからGithubアカウントを接続してください。
+![dimbula_me_not_github.png](../../../assets/image/dimbula_me_not_github.png)
+
+接続して再度`/dimbula me`を送信すると、Githubが`Connected`になり、`Client ID`が表示されます。`Client ID`は、あなたを識別するIDで、Github WorkflowでteaBreakのアクションを使う際に使用します。
+![dimbula_me_not_github.png](../../../assets/image/dimbula_me_github.png)
+
+これは必須のセットアップではありませんが、DIMBULA teaBreakのE2Eテストが終わった時やGithub Checksを更新したときの通知を受けたい場合は、Slackのチャンネルに講読したいリポジトリを登録してください。
 詳しくは、[通知を受け取る](../docs/receive_notification.md) を参照ください。
 
