@@ -14,7 +14,7 @@ Github Actionsと連携した、Mobile CI（Continuous Integration）プロダ�
 
 [DIMBULA E2E](./docs/e2e.md)
 
-## DIMBULAアプリ
+# DIMBULAアプリ
 DIMBULAは、専用のSlackアプリとGithubアプリがあります。Slackアプリはインストール必須で、DIMBULA E2Eをご利用になる場合は、Githubアプリもインストールください。
 
 <a href="https://slack.com/oauth/v2/authorize?client_id=2434429732679.4945997903222&scope=chat:write,commands,users:read&user_scope=" target="_blank">

@@ -22,6 +22,23 @@ Current support only <b>Android mobile</b>.<br/>
 We will try to develop and support for iOS later.
 </div>
 
+# Mobile running state
+See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this time.
+
+# News 
+1. <b>2023.03.26</b><br/>We launched 1st test flight stage right now 🎉If you are interested, please contact us.
+
+# Contact us
+We are waiting your feedback, for instance:
+* Real mobile request - there was no mobile you want to use.
+* Feature request - if you don't get what you want.
+* Bug - should be bug if you encountered not working.
+* etc
+
+Feel free to tell us!
+* [Twitter Global Account - English](https://twitter.com/dimbula_dev)
+* [Twitter Japan Account - Japanese](https://twitter.com/__kunimasu__)
+
 ---
 
 For detail, you can find as below:

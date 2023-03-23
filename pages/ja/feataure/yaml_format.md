@@ -5,6 +5,8 @@ DIMBULA E2Eのテスト手順や条件を記すYAMLファイルについて、�
 * [E2Eテスト手順・条件を記載したYAMLファイル](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input/blob/main/.dimbula/e2e/main/pixel4a.yml)
 * [Github Workflowで専用アクションの呼び出し部分](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input/blob/main/.github/workflows/build.yml#L36)
 
+また、E2Eで指定できるモバイルやOSバージョンは [稼働中のモバイル](https://dimbula-web.kunimasu.com/support/devices) を参照ください。 
+
 ```yaml
 device: Pixel 4a
 os-version: "13"
@@ -37,7 +39,6 @@ steps:
 ```
 
 動作させるモバイルは、以下の条件をDIMBULAに要求しています。
-
 * モバイルは、Pixel 4a
 * OSバージョンは、13
 
@@ -68,14 +69,13 @@ YAML内では、それぞれの座標や実際のテキスト入力を記述し�
 | os-version        | テスト対象のOSのバージョン          |            <font color="orange">Required</font>            | [OS Version](https://dimbula-web.kunimasu.com/support/devices) を参照 |
 | step-wait-time    | `steps` で実行する各ステップの待ち時間 | <font color="grey"><i>Optional</i></font><br/>Default: 3秒  | Linuxの`sleep`コマンドと同等の引数                                            |
 | system-navigation | システムUIのナビゲーションバーの表示     | <font color="grey"><i>Optional</i></font><br/>Default: 未指定 | `gesture` `two` `three`                                            |
-| languages         | テストするOSの言語              |            <font color="orange">Required</font>            | `en` `ja` 他 [言語切り替え](../docs/change_language.md) のコードを参照                   |
+| languages         | テストするOSの言語              |            <font color="orange">Required</font>            | `en` `ja` 他 [言語切り替え](../docs/change_language.md) のコードを参照           |
 | steps             | テストする手順                 |            <font color="orange">Required</font>            | 以下stepsの説明を参照                                                      |
 
 
 ## steps
 
-操作したい手順を辞書の形式で記入します。
-操作できる種類と有効値を以下の通りです。
+操作したい手順を辞書の形式で記入します。操作できる種類と有効値を以下の通りです。
 
 ### 共通仕様
 * `name`は、各ステップを説明する名称等をOptionalで自由入力

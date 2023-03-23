@@ -14,14 +14,12 @@ Slackの既存のメンバー管理、権限設定を活用し、Slackのワー�
 # 通知
 DIMBULAのSlashコマンドは非同期に結果を応答するものや、Githubからの通知を受けます。DIMBULAでは独自のユーザインターフェースがない代わりに、柔軟且つ強力なSlackの通知システムを利用できます。
 通知を受け取る条件や粒度、Webブラウザやネイティブアプリ、メールでの受信といったきめ細かい通知システムの恩恵があることが、Slackインターフェースを採用した理由の1つです。
-
 ![dimbula_required_admin.png](../../../assets/image/slack_notification.png)
 
-# Slashコマンド
+# ユーザインターフェース
 Slashコマンドの対話的なコミュニケーションは、テキストベースのみならず、モーダルUIでより使い勝手の良いユーザインターフェースを提供します。
 
-`/dimbula use`を送信すると、利用したいモバイルをモーダルUIで選びます。
+例えば、`/dimbula use`を送信すると、利用したいモバイルを選択するときは、モーダルUIを表示します。その後、モバイルが確保されると、DIMBULAからリンクがポストされます。
+目的に合わせてSlackが提供するユーザインターフェースを柔軟に活用できる点は非常に魅力的です。
 ![img.png](../../../assets/image/dimbula_use_modal.png)
-
-モバイルが確保されると、DIMBULAからリンクがポストされます。
 ![img.png](../../../assets/image/dimbula_use_post.png)
