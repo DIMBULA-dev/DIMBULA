@@ -33,7 +33,7 @@ For detail, you can find as below:
 See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this time.
 
 # News 
-1. <b>2023.03.26</b><br/>We launched 1st test flight stage right now 🎉If you are interested, please contact us.
+1. <b>2023.03.26</b><br/>We launched 1st test flight stage right now 🎉 If you are interested, please contact us.
 
 # Contact us
 We are waiting your feedback, for instance:
@@ -43,5 +43,5 @@ We are waiting your feedback, for instance:
 * etc
 
 Feel free to tell us!
-* [Twitter Global Account - English](https://twitter.com/dimbula_dev)
-* [Twitter Japan Account - Japanese](https://twitter.com/__kunimasu__)
+* [Twitter DIMBULA 日本語](https://twitter.com/__kunimasu__)
+* [Twitter DIMBULA Global](https://twitter.com/dimbula_dev)

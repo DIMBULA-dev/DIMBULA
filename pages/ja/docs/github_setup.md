@@ -20,7 +20,7 @@ DIMBULAのGithubアプリの`/dimbula me`を送信して、インストールリ
 インストール後に再度`/dimbula me`を送信すると、`Installed to <インストール先>`といった表示になります。もし違う組織や個人へインストールしたいという場合は、一度`Disconnect Github`ボタンから連携を解除してください。連携がない状態で`/dimbula me`を送信すると、再度`install`リンクが表示されます。
 ![dimbula_me_installed.png](../../../assets/image/dimbula_me_installed.png)
 
-# 対象リポジトリの確認
-`/dimbula subscribe`を送信すると、DIMBULA E2Eで利用できるリポジトリの一覧を選択できます。対象リポジトリを絞り込む場合は、`/dimbula subscribe <リポジトリのURL>`を送信します。絞り込みをしない場合は、インストールした個人・組織のリポジトリのトップ100件を表示します。
-
+# 通知を受け取る
 DIMBULA E2Eを利用すると、テストが終わったときや、誰かがGithubのChecksを更新したときの通知を受けることができます。E2Eテストを始める前に、Slackのチャンネルに通知を受けたいリポジトリを登録しておきましょう。
+
+[通知を受け取る](./receive_notification.md)
