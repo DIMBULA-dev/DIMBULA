@@ -4,26 +4,24 @@ DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営す�
 
 弊社管理のモバイル実機端末を、以下の目的でご利用になることを想定しています。
 
-1. **DIMBULA Computing** - 実機モバイルをブラウザ上で一時利用する
-2. **DIMBULA E2E** - Githubと連携した、アプリケーションのE2Eテストサービス
+## DIMBULA Computing
+弊社が管理する実機モバイルを、ブラウザからリモートで一時利用できるプロダクトです。
 
-DIMBULAでは、専用のSlackアプリとGithubアプリがあります。Slackアプリはインストール必須で、DIMBULA E2Eをご利用になる場合は、Githubアプリもインストールください。
+[DIMBULA Computing](./docs/computing.md)
+
+## DIMBULA E2E
+Github Actionsと連携した、Mobile CI（Continuous Integration）プロダクトです。
+
+[DIMBULA E2E](./docs/e2e.md)
+
+## DIMBULAアプリ
+DIMBULAは、専用のSlackアプリとGithubアプリがあります。Slackアプリはインストール必須で、DIMBULA E2Eをご利用になる場合は、Githubアプリもインストールください。
 
 <a href="https://slack.com/oauth/v2/authorize?client_id=2434429732679.4945997903222&scope=chat:write,commands,users:read&user_scope=" target="_blank">
   <img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
 </a>
 
 Githubアプリは、Slackアプリをインストール後、`/dimbula me`から行います。
-
-# DIMBULA Computing
-弊社が管理する実機モバイルをリモートで一時利用できるプロダクトです。
-
-[DIMBULA Computing](./docs/computing.md)
-
-# DIMBULA E2E
-Github Actionsと連携した、Mobile CI（Continuous Integration）プロダクトです。
-
-[DIMBULA E2E](./docs/e2e.md)
 
 # 特徴
 DIMBULAの特徴は4つです。
