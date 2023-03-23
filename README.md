@@ -36,11 +36,13 @@ See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this t
 We are waiting your feedback, for instance:
 * Real mobile request - there was no mobile you want to use.
 * Feature request - if you don't get what you want.
-* Bug - should be bug if you encountered not working.
+* Bug - should be our bug if you encountered not working.
 * etc
 
 Feel free to tell us!
 
-* <img src="assets/image/twitter_icon.png" width="15" alt="Twitter" />&nbsp;[DIMBULA 日本語](https://twitter.com/__kunimasu__)
-* <img src="assets/image/twitter_icon.png" width="15" alt="Twitter" />&nbsp;[DIMBULA Global](https://twitter.com/dimbula_dev)
+* <img style="position: relative; top: 4px;" src="assets/image/twitter_icon.png" width="20" alt="Twitter" />&nbsp;[DIMBULA 日本語](https://twitter.com/__kunimasu__)
+* <img style="position: relative; top: 4px;" src="assets/image/twitter_icon.png" width="20" alt="Twitter" />&nbsp;[DIMBULA Global](https://twitter.com/dimbula_dev)
 
+# About us
+We, [Kunimasu, K.K](https://kunimasu.com/) are IoT / Mobile / Web tech company in TOKYO 🇯🇵
