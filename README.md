@@ -1,7 +1,5 @@
 <meta name="slack-app-id" content="A04TTVBSK6J">
 
-# DIMBULA
-
 ![icon.png](assets/image/icon.png)
 
 # Welcome to DIMBULA
