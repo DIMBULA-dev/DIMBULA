@@ -1,15 +1,15 @@
 # 通知を受け取る
-DIMBULA teaBreakでは、E2Eテストの終了時や、Github Checks更新時に、講読されたSlackチャンネルに通知してお知らせします。
+DIMBULA E2Eでは、E2Eテストの終了時やGithub Checks更新時に、指定のSlackチャンネルに通知することが出来ます。
 
-通知を受け取る設定をしていなくても、DIMBULA teaBreakは機能しますが、テストが終了したことに気付かないといったことが起きますので、登録しておく方が良いでしょう。
+通知を受け取る設定をしていなくても、DIMBULA E2Eは機能しますが、テストが終了したことに気付かないといったことを避けるために、登録する方が良いでしょう。
 
 # セットアップ
-通知を受信したいチャンネルで、`/dimbula subscribe <GithubリポジトリURL>`を入力して、通知を受けたいDIMBULA teaBreakの対象リポジトリを指定します。
-![img.png](../../../assets/image/dimbula_subscribe_url.png)
+通知を受信したいチャンネルで、`/dimbula subscribe`を入力して、通知を受けたいDIMBULA E2Eの対象リポジトリを選択します。
+![img.png](../../../assets/image/dimbula_subscribe_modal.png)
 
-設定が完了すると、以下のようなメッセージがポストされます。
+設定すると、以下のようなメッセージがポストされます。
 ![img.png](../../../assets/image/dimbula_subscribed.png)
 
 # 通知のイメージ
-DIMBULA teaBreakで指定の言語、端末やOSバージョンの組み合わせで全てのE2Eテストが終えたときやChecksが更新されたときに、以下のような内容でポストされます。
-![dimbula_me_not_github.png](../../../assets/image/dimbula-teaBreak-notification.png)
+DIMBULA E2Eで指定の言語、端末やOSバージョンの組み合わせで、全てのE2Eテストが終えたときやChecksが更新されたときに、以下のような内容でポストされます。
+![dimbula_me_not_github.png](../../../assets/image/dimbula_e2e_notification.png)

@@ -4,26 +4,33 @@ DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営す�
 
 弊社管理のモバイル実機端末を、以下の目的でご利用になることを想定しています。
 
-1. **DIMBULA atWork** - 実機のモバイル端末をスポットでリモートデスクトップ的に利用する
-2. **DIMBULA teaBreak** - Github Workflowと連携した、アプリケーションのE2Eテストで継続利用する
+1. **DIMBULA Computing** - 実機モバイルをブラウザ上で一時利用する
+2. **DIMBULA E2E** - Githubと連携した、アプリケーションのE2Eテストサービス
 
-DIMBULAでは、専用のSlackアプリとGithubアプリがあります。DIMBULA atWork / teaBreak共に、Slackのアプリはインストール必須で、teaBreakをご利用になる場合は、Githubアプリもインストールください。
+DIMBULAでは、専用のSlackアプリとGithubアプリがあります。Slackアプリはインストール必須で、DIMBULA E2Eをご利用になる場合は、Githubアプリもインストールください。
 
 <a href="https://slack.com/oauth/v2/authorize?client_id=2434429732679.4945997903222&scope=chat:write,commands,users:read&user_scope=" target="_blank">
   <img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
 </a>
-<a href="https://github.com/marketplace/dimbula-real-mobile-ci-computing" style="border-radius: 8px;background-color: white;height: 38px;display: inline-block;position: relative;width: 165px;border: 1px solid #c8c8c8;font-weight: normal !important;" target="_blank">
-  <img src="../../assets/image/github-icon.png" alt="Github" height="30" style="display: inline-block;margin: 4px 8px 5px 8px;">
-  <span style="color: black; font-size: 16px; position: absolute; top: 8px;">Add to <b>Github</b></span>
-</a>
+
+Githubアプリは、Slackアプリをインストール後、`/dimbula me`から行います。
+
+# DIMBULA Computing
+弊社が管理する実機モバイルをリモートで一時利用できるプロダクトです。
+
+[DIMBULA Computing](./docs/computing.md)
+
+# DIMBULA E2E
+Github Actionsと連携した、Mobile CI（Continuous Integration）プロダクトです。
+
+[DIMBULA E2E](./docs/e2e.md)
 
 # 特徴
-
 DIMBULAの特徴は4つです。
 
 ## E2Eテスト手順はノーコード
 
-E2Eテストするための手順は、YAML形式のテキストファイルに記述します。記述する内容は、テストする端末名、OSのバージョン、OSの言語、テストの手順等を記述しますが、DIMBULA atWorkは、画面操作を記録してYAMLファイルへ出力する機能がありますのでご活用ください。
+E2Eテストするための手順は、YAML形式のテキストファイルに記述します。記述する内容は、テストする端末名、OSのバージョン、OSの言語、テストの手順等を記述しますが、DIMBULA Computing、画面操作を記録してYAMLファイルへ出力する機能がありますのでご活用ください。
 
 [YAMLフォーマット](feataure/yaml_format.md)
 
@@ -33,28 +40,18 @@ E2Eテストするための手順は、YAML形式のテキストファイルに�
 
 [エッジコンピュータの仕様](feataure/edge_computer_spec.md)
 
-## Github連携
-
-DIMBULAのGithubアプリを組織もしくは個人にインストールすると、インストールした対象の組織や個人のリポジトリのGithub Workflowと連携した実機モバイルCIサービス「DIMBULA teaBreak」をご利用いただけます。Github Workflow上で、DIMBULA teaBreakのトリガーとなる専用アクションを記述してテストのリクエストを行うと、リクエストを受信したDIMBULAはテストしたいモバイル端末を確保し、Github Workflowで生成したアーティファクトをインストール、テスト手順に従い手順を逐次実行します。テスト実行中は、録画され、必要に応じてスクリーンショットを撮ります。テスト終了後に、録画された画面やスクリーンショットを目視で確認し、Github Checksを更新することで合否判定を行います。
+## Githubインテグレーション
+DIMBULAのGithubアプリを組織もしくは個人にインストールすると、インストールした対象の組織や個人のリポジトリのGithub Actionsと連携した実機モバイルCIサービス「DIMBULA E2E」をご利用いただけます。Github Workflow上で、DIMBULA E2Eの専用アクションを記述してテストをリクエストすると、DIMBULAはテストしたいモバイル端末を確保し、Github Workflowで生成したアーティファクトをインストール、テスト手順を逐次実行します。テスト実行中は、画面録画され、必要に応じてスクリーンショットを撮ります。テスト終了後に、録画された画面やスクリーンショットを確認、Github Checksを更新します。
 
 [Github連携](feataure/github_integration.md)
 
-## Slack連携
-
-DIMBULAでは、SlackのSlashコマンドを使ってDIMBULAに要求します。Slackに参画するメンバーがDIMBULAのSlashコマンドを使えますので、DIMBULAに利用者を招待する等は不要です。また、Githubからの通知は、Slack上の任意のチャンネルに通知されます。Slackに備わるメンバー管理、通知機能、Slackのインタラクティブなコミュニケーションを最大限に活用したユーザインターフェースになっています。
+## Slackインテグレーション
+DIMBULAでは、SlackのSlashコマンドを使ってDIMBULAに要求します。Slackに参画するメンバーがDIMBULAのユーザになるため、DIMBULAにユーザを作成したり、招待するといったことは不要です。また、利用者への様々な通知は、Slackの通知システムをそのまま利用します。Slackに備わるメンバー管理、通知機能、Slackのインタラクティブなコミュニケーションを最大限に活用したユーザインターフェースになっています。
 
 [Slack連携](feataure/slack_integration.md)
 
-# DIMBULA teaBreakの流れ
+# DIMBULA E2Eの流れ
 
-<a href="../../assets/image/teaBreak_flow.png" target="_blank">
-  <img src="../../assets/image/teaBreak_flow.png" alt="DIMBULA flow" />
+<a href="../../assets/image/dimbula_e2e_flow.png" target="_blank">
+  <img src="../../assets/image/dimbula_e2e_flow.png" alt="DIMBULA flow" />
 </a>
-
-# デモ
-
-事前準備として、DIMBULAのSlackアプリとGithubアプリはインストール済みです。
-
-## DIMBULA atWork
-
-## DIMBULA teaBreak

@@ -1,6 +1,6 @@
 # YAMLフォーマット
 
-DIMBULA teaBreakのテスト手順や条件を記すYAMLファイルについて、ここでは簡単な例として、ToDoアプリを一例に説明していきます。
+DIMBULA E2Eのテスト手順や条件を記すYAMLファイルについて、ここでは簡単な例として、ToDoアプリを一例に説明していきます。
 
 ```yaml
 device: Pixel 4a
@@ -35,7 +35,7 @@ steps:
 
 動作させるモバイルは、以下の条件をDIMBULAに要求しています。
 
-* モバイル端末は、Pixel 4a
+* モバイルは、Pixel 4a
 * OSバージョンは、13
 
 テストでは以下の条件で動作します。
@@ -65,7 +65,7 @@ YAML内では、それぞれの座標や実際のテキスト入力を記述し�
 | os-version        | テスト対象のOSのバージョン          |            <font color="orange">Required</font>            | [OS Version](https://dimbula-web.kunimasu.com/support/devices) を参照 |
 | step-wait-time    | `steps` で実行する各ステップの待ち時間 | <font color="grey"><i>Optional</i></font><br/>Default: 3秒  | Linuxの`sleep`コマンドと同等の引数                                            |
 | system-navigation | システムUIのナビゲーションバーの表示     | <font color="grey"><i>Optional</i></font><br/>Default: 未指定 | `gesture` `two` `three`                                            |
-| languages         | テストするOSの言語              |            <font color="orange">Required</font>            | `en` `ja` 他 [言語切り替え](change_language.md) のコードを参照                   |
+| languages         | テストするOSの言語              |            <font color="orange">Required</font>            | `en` `ja` 他 [言語切り替え](../docs/change_language.md) のコードを参照                   |
 | steps             | テストする手順                 |            <font color="orange">Required</font>            | 以下stepsの説明を参照                                                      |
 
 
@@ -103,7 +103,7 @@ YAML内では、それぞれの座標や実際のテキスト入力を記述し�
 * ファイル名を渡して、スクリーンショットを撮る
 * PNG形式で保存
 * 拡張子は不要
-* DIMBULA teaBreakでのみ有効
+* DIMBULA E2Eでのみ有効
 
 ### wait
 ```yaml
@@ -117,7 +117,7 @@ YAML内では、それぞれの座標や実際のテキスト入力を記述し�
 - text: <alphanumeric character etc>
 ```
 * 日本語等マルチバイトな文字列は不可
-* マルチバイトに変換したい場合は、英数字等を送信して端末側で変換する
+* マルチバイトに変換したい場合は、英数字等を送信してモバイル側で変換する
 * 具体的には [KEYCODE](https://developer.android.com/reference/android/view/KeyEvent) で送信できる文字に限る
 
 ### home

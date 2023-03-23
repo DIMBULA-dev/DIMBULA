@@ -1,0 +1,2 @@
+# DIMBULA Githubアクション
+DIMBULA E2Eをリクエストするために、Github ActionsのWorkflowにはトリガーとなるアクションの記述が必要です。
