@@ -23,4 +23,4 @@ DIMBULA E2Eは、Github Actionsと連携した、Mobile CI（Continuous Integrat
 1. [DIMBULA Slackアプリのインストールとセットアップ](./slack_setup.md)
 2. [DIMBULA Githubアプリのインストールとセットアップ](./github_setup.md)
 3. [DIMBULA E2Eのテスト条件と手順を作成](./create_e2e_test.md)
-4. Github ActionsのWorkflowにDIMBULA E2E専用アクションを記述
+4. [Github ActionsのWorkflowにDIMBULA E2E専用アクションを記述](./dimbula_action.md)
