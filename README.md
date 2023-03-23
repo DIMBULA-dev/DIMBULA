@@ -4,9 +4,9 @@
 
 ![icon.png](assets/image/icon.png)
 
-# Hello, developer!
+# Welcome to DIMBULA
 
-**Welcome to DIMBULA 🎉**
+**Hello, developer!**
 
 DIMBULA provides two major features.
 
@@ -16,7 +16,7 @@ DIMBULA provides two major features.
 If these keywords ring a bell, take a look please.  
 *Real Mobile CI & Computing / Github Actions / E2E Test*
 
-<div style="background-color: #DFDFDF; border: 1px solid gray; padding: 16px; border-radius: 4px; color: darkorange;">
+<div style="background-color: rgb(48, 48, 48); border: 1px solid gray; padding: 16px; border-radius: 4px; color: darkorange;">
 <div style="color: orange; font-weight: bold; font-size: 1.5rem;">Important</div>
 Current support only <b>Android mobile</b>.<br/>
 We will try to develop and support for iOS later.
