@@ -1,7 +1,5 @@
 <meta name="slack-app-id" content="A04TTVBSK6J">
 
-![icon.png](assets/image/icon.png)
-
 # Welcome to DIMBULA
 
 **Hello, developer!**
@@ -11,10 +9,12 @@ DIMBULA provides two main features.
 - **DIMBULA Computing** is you can use real mobile over internet such as a remote desktop.
 - **DIMBULA E2E** is you can use for E2E testing connected to Github Actions.
 
-<div style="background-color: rgb(48, 48, 48); border: 1px solid gray; padding: 16px; border-radius: 4px; color: darkorange; margin: 0 0 20px;">
+<div style="background-color: rgb(48, 48, 48); border: 1px solid gray; padding: 16px; border-radius: 4px; margin: 0 0 20px;">
 <div style="color: orange; font-weight: bold; font-size: 1.5rem;">Important</div>
-Current support only <b>Android mobile</b>.<br/>
-We will try to develop and support for iOS later.
+<ul style=" color: darkorange;">
+<li><b>Unstable</b> due to 1st test flight for now.</li>
+<li>Supporting only <b>Android mobile</b>. We will try support iOS later.</li>
+</ul>
 </div>
 
 # Introduction
@@ -28,7 +28,7 @@ For detail, you can find as below:
 See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this time.
 
 # News
-1. <b>2023.03.26</b><br/>We launched 1st test flight stage right now 🎉
+1. <b>2023.03.23</b><br/>We launched 1st test flight stage right now 🎉
 
 # Contact us
 We are waiting your feedback, for instance:
