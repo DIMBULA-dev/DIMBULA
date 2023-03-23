@@ -16,11 +16,18 @@ DIMBULA provides two major features.
 If these keywords ring a bell, take a look please.  
 *Real Mobile CI & Computing / Github Actions / E2E Test*
 
-<div style="background-color: rgb(48, 48, 48); border: 1px solid gray; padding: 16px; border-radius: 4px; color: darkorange;">
+<div style="background-color: rgb(48, 48, 48); border: 1px solid gray; padding: 16px; border-radius: 4px; color: darkorange; margin: 0 0 20px;">
 <div style="color: orange; font-weight: bold; font-size: 1.5rem;">Important</div>
 Current support only <b>Android mobile</b>.<br/>
 We will try to develop and support for iOS later.
 </div>
+
+# Introduction
+
+For detail, you can find as below:
+* [日本語](./pages/ja/README.md)
+* English (In preparation)
+
 
 # Mobile running state
 See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this time.
@@ -38,9 +45,3 @@ We are waiting your feedback, for instance:
 Feel free to tell us!
 * [Twitter Global Account - English](https://twitter.com/dimbula_dev)
 * [Twitter Japan Account - Japanese](https://twitter.com/__kunimasu__)
-
----
-
-For detail, you can find as below:
-* [日本語](./pages/ja/README.md)
-* English (In preparation)
