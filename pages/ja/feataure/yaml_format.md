@@ -1,6 +1,9 @@
 # YAMLフォーマット
 
-DIMBULA E2Eのテスト手順や条件を記すYAMLファイルについて、ここでは簡単な例として、ToDoアプリを一例に説明していきます。
+DIMBULA E2Eのテスト手順や条件を記すYAMLファイルについて、ここでは簡単な例として、[ToDoアプリ](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input) を一例に説明していきます。
+
+* [E2Eテスト手順・条件を記載したYAMLファイル](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input/blob/main/.dimbula/e2e/main/pixel4a.yml)
+* [Github Workflowで専用アクションの呼び出し部分](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input/blob/main/.github/workflows/build.yml#L36)
 
 ```yaml
 device: Pixel 4a

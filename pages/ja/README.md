@@ -41,12 +41,12 @@ E2Eテストするための手順は、YAML形式のテキストファイルに�
 ## Githubインテグレーション
 DIMBULAのGithubアプリを組織もしくは個人にインストールすると、インストールした対象の組織や個人のリポジトリのGithub Actionsと連携した実機モバイルCIサービス「DIMBULA E2E」をご利用いただけます。Github Workflow上で、DIMBULA E2Eの専用アクションを記述してテストをリクエストすると、DIMBULAはテストしたいモバイル端末を確保し、Github Workflowで生成したアーティファクトをインストール、テスト手順を逐次実行します。テスト実行中は、画面録画され、必要に応じてスクリーンショットを撮ります。テスト終了後に、録画された画面やスクリーンショットを確認、Github Checksを更新します。
 
-[Github連携](feataure/github_integration.md)
+[Githubインテグレーション](feataure/github_integration.md)
 
 ## Slackインテグレーション
 DIMBULAでは、SlackのSlashコマンドを使ってDIMBULAに要求します。Slackに参画するメンバーがDIMBULAのユーザになるため、DIMBULAにユーザを作成したり、招待するといったことは不要です。また、利用者への様々な通知は、Slackの通知システムをそのまま利用します。Slackに備わるメンバー管理、通知機能、Slackのインタラクティブなコミュニケーションを最大限に活用したユーザインターフェースになっています。
 
-[Slack連携](feataure/slack_integration.md)
+[Slackインテグレーション](feataure/slack_integration.md)
 
 # DIMBULA E2Eの流れ
 

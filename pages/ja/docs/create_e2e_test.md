@@ -1,6 +1,8 @@
 # DIMBULA E2Eのテスト条件と手順を作成
 DIMBULA E2Eテストを行うために、テストの手順や実機モバイルの指定が必要です。
 
+一例として、[ToDoアプリ](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input) の [E2Eテスト手順・条件を記載したYAMLファイル](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input/blob/main/.dimbula/e2e/main/pixel4a.yml) を参照ください。
+
 # セットアップ
 以下の流れに沿って、必要なセットアップを行います。
 
