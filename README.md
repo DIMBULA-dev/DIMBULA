@@ -8,13 +8,10 @@
 
 **Hello, developer!**
 
-DIMBULA provides two major features.
+DIMBULA provides two main features.
 
 - **DIMBULA Computing** is you can use real mobile over internet such as a remote desktop.
 - **DIMBULA E2E** is you can use for E2E testing connected to Github Actions.
-
-If these keywords ring a bell, take a look please.  
-*Real Mobile CI & Computing / Github Actions / E2E Test*
 
 <div style="background-color: rgb(48, 48, 48); border: 1px solid gray; padding: 16px; border-radius: 4px; color: darkorange; margin: 0 0 20px;">
 <div style="color: orange; font-weight: bold; font-size: 1.5rem;">Important</div>
@@ -32,8 +29,8 @@ For detail, you can find as below:
 # Mobile running state
 See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this time.
 
-# News 
-1. <b>2023.03.26</b><br/>We launched 1st test flight stage right now 🎉 If you are interested, please contact us.
+# News
+1. <b>2023.03.26</b><br/>We launched 1st test flight stage right now 🎉
 
 # Contact us
 We are waiting your feedback, for instance:
@@ -43,5 +40,7 @@ We are waiting your feedback, for instance:
 * etc
 
 Feel free to tell us!
-* [Twitter DIMBULA 日本語](https://twitter.com/__kunimasu__)
-* [Twitter DIMBULA Global](https://twitter.com/dimbula_dev)
+
+* <img src="assets/image/twitter_icon.png" width="15" alt="Twitter" />&nbsp;[DIMBULA 日本語](https://twitter.com/__kunimasu__)
+* <img src="assets/image/twitter_icon.png" width="15" alt="Twitter" />&nbsp;[DIMBULA Global](https://twitter.com/dimbula_dev)
+
