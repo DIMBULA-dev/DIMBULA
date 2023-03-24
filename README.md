@@ -23,6 +23,7 @@ For detail, you can find as below:
 * [日本語](./pages/ja/README.md)
 * English (In preparation)
 
+[Terms of use](./terms.md) / [Policy](./policy.md) - Japanese only for now.
 
 # Mobile running state
 See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this time.
