@@ -27,6 +27,10 @@ For detail, you can find as below:
 # Mobile running state
 See here is [status](https://dimbula-web.kunimasu.com/support/devices) at this time.
 
+# Pricing
+
+Free to use!
+
 # News
 1. <b>2023.03.23</b><br/>We launched 1st test flight stage right now 🎉
 
