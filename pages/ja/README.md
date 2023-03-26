@@ -32,7 +32,9 @@ DIMBULAの特徴は4つです。
 
 ## E2Eテスト手順はノーコード
 
-E2Eテストするための手順は、YAML形式のテキストファイルに記述します。記述する内容は、テストする端末名、OSのバージョン、OSの言語、テストの手順等を記述しますが、DIMBULA Computing、画面操作を記録してYAMLファイルへ出力する機能がありますのでご活用ください。
+E2Eテストするための手順は、YAML形式のテキストファイルに記述します。記述する内容は、テストする端末名、OSのバージョン、OSの言語、テストの手順等を記述しますが、自作にはやや手間を感じるでしょう。
+
+[DIMBULA Computing](docs/computing.md) では、画面操作を記録してYAMLファイルへ出力する機能がありますのでご活用ください。
 
 [YAMLフォーマット](feataure/yaml_format.md)
 
@@ -43,7 +45,7 @@ E2Eテストするための手順は、YAML形式のテキストファイルに�
 [エッジコンピュータの仕様](feataure/edge_computer_spec.md)
 
 ## Githubインテグレーション
-DIMBULAのGithubアプリを組織もしくは個人にインストールすると、インストールした対象の組織や個人のリポジトリのGithub Actionsと連携した実機モバイルCIサービス「DIMBULA E2E」をご利用いただけます。Github Workflow上で、DIMBULA E2Eの専用アクションを記述してテストをリクエストすると、DIMBULAはテストしたいモバイル端末を確保し、Github Workflowで生成したアーティファクトをインストール、テスト手順を逐次実行します。テスト実行中は、画面録画され、必要に応じてスクリーンショットを撮ります。テスト終了後に、録画された画面やスクリーンショットを確認、Github Checksを更新します。
+DIMBULAのGithubアプリを組織もしくは個人にインストールすると、インストールした対象の組織や個人のリポジトリのGithub Actionsと連携した実機モバイルCIサービス「DIMBULA E2E」をご利用いただけます。Github Workflow上で、DIMBULA E2Eの専用アクションを記述してテストをリクエストすると、DIMBULAはテストしたいモバイル端末を確保し、Github Workflowで生成したアプリをインストール、テスト手順を逐次実行します。テスト実行中は、画面録画され、必要に応じてスクリーンショットを撮ります。テスト終了後に、録画された画面やスクリーンショットを確認、Github Checksを更新します。
 
 [Githubインテグレーション](feataure/github_integration.md)
 
@@ -57,3 +59,6 @@ DIMBULAでは、SlackのSlashコマンドを使ってDIMBULAに要求します�
 <a href="../../assets/image/dimbula_e2e_flow.png" target="_blank">
   <img src="../../assets/image/dimbula_e2e_flow.png" alt="DIMBULA flow" />
 </a>
+
+# DIMBULA E2Eを使ったサンプル
+* [DIMBULA-simple-tap-text-input](https://github.com/kunimasu-com/DIMBULA-simple-tap-text-input)<br />シンプルなタップ操作とテキスト入力のToDoアプリ
