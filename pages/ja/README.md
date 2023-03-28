@@ -7,10 +7,14 @@ DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営す�
 ## DIMBULA Computing
 弊社が管理する実機モバイルを、ブラウザからリモートで一時利用できるプロダクトです。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MsljQHqg21s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 [DIMBULA Computing](./docs/computing.md)
 
 ## DIMBULA E2E
 Github Actionsと連携した、Mobile CI（Continuous Integration）プロダクトです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/81v6j_NUvS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 [DIMBULA E2E](./docs/e2e.md)
 

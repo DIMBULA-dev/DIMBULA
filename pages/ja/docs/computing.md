@@ -5,6 +5,8 @@
 * DIMBULA E2Eのテスト条件・手順を作成するため
 * ユーザサポートなどで、エンドユーザが利用する同一の機種・OSバージョンを一時的に利用するため
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MsljQHqg21s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # セットアップ
 事前にDIMBULAのSlackアプリがインストールされていれば、直ぐにご利用いただけます。詳しくは [Slackセットアップ](./slack_setup.md) をご覧ください。 
 
@@ -13,6 +15,10 @@
 1. `/dimbula use`で利用したいモバイルを選択<br/>利用できる空きモバイルを確保後、URLがポストされます
 2. ブラウザでURLを表示し、映像再生ボタンで利用開始
 3. 利用を終了するときは、ブラウザを閉じ、`/dimbula quit`でモバイルを解放する
+
+
+もしアプリをインストールして使い帯場合は、 事前にインストールしたいアプリがあれば、ダウンロードできるURLを用意してください。映像再生後、設定ボタン押下し、`Send APK`ボタンでインストールするアプリのダウンロードURLを入力することで、実機にインストールできます。
+
 
 # 空きモバイルの確保
 `/dimbula use`で現在稼働するモバイルを表示します。この時点では既に他の利用者に確保されたモバイルも含めて、弊社で稼働するすべてのモバイルの種類が選択肢として現れます。
