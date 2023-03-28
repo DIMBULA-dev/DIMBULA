@@ -7,16 +7,16 @@ DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営す�
 ## DIMBULA Computing
 弊社が管理する実機モバイルを、ブラウザからリモートで一時利用できるプロダクトです。
 
-<iframe style="max-width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/MsljQHqg21s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 [DIMBULA Computing](./docs/computing.md)
+
+<iframe style="margin-bottom: 20px; max-width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/MsljQHqg21s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## DIMBULA E2E
 Github Actionsと連携した、Mobile CI（Continuous Integration）プロダクトです。
 
-<iframe style="max-width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/81v6j_NUvS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 [DIMBULA E2E](./docs/e2e.md)
+
+<iframe style="margin-bottom: 20px; max-width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/81v6j_NUvS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # DIMBULAアプリ
 DIMBULAは、専用のSlackアプリとGithubアプリがあります。Slackアプリはインストール必須で、DIMBULA E2Eをご利用になる場合は、Githubアプリもインストールください。
