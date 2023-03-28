@@ -1,7 +1,7 @@
 # DIMBULA E2E
 DIMBULA E2Eは、Github Actionsと連携した、Mobile CI（Continuous Integration）プロダクトです。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/81v6j_NUvS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="max-width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/81v6j_NUvS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # 特徴
 

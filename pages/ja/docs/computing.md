@@ -5,7 +5,7 @@
 * DIMBULA E2Eのテスト条件・手順を作成するため
 * ユーザサポートなどで、エンドユーザが利用する同一の機種・OSバージョンを一時的に利用するため
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MsljQHqg21s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="max-width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/MsljQHqg21s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # セットアップ
 事前にDIMBULAのSlackアプリがインストールされていれば、直ぐにご利用いただけます。詳しくは [Slackセットアップ](./slack_setup.md) をご覧ください。 
