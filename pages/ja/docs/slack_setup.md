@@ -7,7 +7,10 @@ DIMBULAのSlackアプリをSlackワークスペースにインストールして
 <a href="https://slack.com/oauth/v2/authorize?client_id=2434429732679.4945997903222&scope=chat:write,commands,users:read&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 -->
 
-**現在、招待制でご利用いただいています。**
+**現在、招待制でご利用いただいています。**<br />希望者は、お手数ですが、以下までご連絡ください。
+SlackアプリのインストールURLをご連絡します。
+* <img style="position: relative; top: 4px;" src="assets/image/twitter_icon.png" width="20" alt="Twitter" />&nbsp;[Twitter](https://twitter.com/__kunimasu__) @ or DM
+* [お問い合わせ](https://kunimasu.com/)
 
 # DIMBULAをチャンネルに追加
 次に、DIMBULAと対話的なコミュニケーションを行うために、Slashコマンドを使うチャンネルにDIMBULAを追加します。
