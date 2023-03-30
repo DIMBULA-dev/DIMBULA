@@ -2,8 +2,7 @@
 
 DIMBULAは、[株式会社Kunimasu](https://kunimasu.com/)が開発・運営するプロダクトです。<br />
 
-DIMBULAについて、Zennで記事をポストしています。
-[Zenn](https://zenn.dev/topics/dimbula)
+DIMBULAについて、[Zenn](https://zenn.dev/topics/dimbula) で情報発信しています。
 
 弊社管理のモバイル実機端末を、以下の目的でご利用になることを想定しています。
 
